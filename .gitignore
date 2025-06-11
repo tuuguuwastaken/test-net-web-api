@@ -1,0 +1,56 @@
+## .NET build artifacts
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider and VS Code
+.idea/
+.vscode/
+.vs/
+
+## OS-specific
+.DS_Store
+Thumbs.db
+
+## Logs and temp
+*.log
+*.tlog
+*.tmp
+
+## User secrets
+secrets.json
+
+## ASP.NET Core environment config (optional)
+appsettings.Development.json
+appsettings.Local.json
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+
+## Build result folders
+publish/
+TestResults/
+
+## Global tools
+tools/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Others (optional)
+*.bak
+*.swp
+*.sdf
+*.dbmdl
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
